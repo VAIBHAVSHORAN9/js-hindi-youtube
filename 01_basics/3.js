@@ -2,8 +2,8 @@
 
 let v1 = "33abc"
 
-console.log(typeof v1)      // 2 ways to check type
-console.log(typeof(v1))
+// console.log(typeof v1)      // 2 ways to check type
+// console.log(typeof(v1))
 
 let c1 = Number(v1)
 console.log(typeof c1)   // This is wrong in js, should not have converted it but JS has some problems
@@ -23,6 +23,7 @@ console.log(c3)         // Nan
 // "33" => 33
 // "33abc" => NaN
 // true => 1, false => 0
+// null => 0
 
 let v4 = "abc"
 let c4 = Boolean(v4)
