@@ -1,3 +1,5 @@
+// 4. Let, const and var
+
 const accountID = "12345"   // Only way to make cnstant in js
 let accountEmail = "abc@12345"
 var accountPassword = "hello"
